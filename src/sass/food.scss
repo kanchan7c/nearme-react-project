@@ -1,0 +1,57 @@
+@import './variables.scss';
+
+.food {
+  padding: 0.5em 0;
+  min-width: 30%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: $shadow;
+  border: $border;
+  border-radius: $border-radius;
+  position: relative;
+  margin: 1em 0.5em;
+  color: white;
+  cursor: pointer;
+
+  & p {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 0.5em;
+    background-color: rgba(0, 0, 0, 0.525);
+
+    & .MuiSvgIcon-root {
+      margin-right: 0.3em;
+
+      & path {
+        color: white;
+      }
+    }
+
+    & span {
+      color: white;
+    }
+  }
+
+  & h1 {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    padding: 4em;
+    color: white;
+    visibility: none;
+    z-index: -2;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.525);
+    transition: all 0.3s ease;
+  }
+
+  &:hover h1 {
+    visibility: visible;
+    z-index: 0;
+  }
+}

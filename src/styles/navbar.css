@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+.navbar {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 2px 4px 8px #d0d2d3;
+  background-color: #ffffff;
+}
+.navbar .logo {
+  height: 8vh;
+  flex: 0.2;
+}
+.navbar .logo a {
+  height: 8vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.navbar .logo a img {
+  padding: 0.3em;
+  height: 10vh;
+  object-fit: contain;
+}
+.navbar .logo a h1 {
+  font-size: 2.5rem;
+  color: #fe181d;
+}
+.navbar .links {
+  padding-right: 0.5em;
+  display: flex;
+}
+.navbar .links a {
+  border: 1px solid #d0d2d3;
+  border-radius: 7px;
+  padding: 0.5em;
+  margin-right: 0.5em;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.navbar .links a:hover {
+  background-color: #ffbe00;
+}
+.navbar .links .MuiSvgIcon-root {
+  margin-right: 0.3em;
+}
+.navbar .search {
+  flex: 0.5;
+  height: 6vh;
+  margin: 4em 2em;
+  display: flex;
+  align-items: center;
+  color: #d0d2d3;
+  border: 1px solid #d0d2d3;
+  border-radius: 7px;
+}
+.navbar .search input {
+  width: 90%;
+  height: 6vh;
+  font-size: 1.2rem;
+  outline: none;
+  padding-left: 0.5em;
+  border: none;
+  background: transparent;
+}
+.navbar .search input::placeholder {
+  color: #d0d2d3;
+}
+.navbar .search .MuiSvgIcon-root {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 44rem) {
+  input {
+    min-width: 30vw;
+  }
+}
+@media (max-width: 62rem) {
+  .links .MuiSvgIcon-root {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */

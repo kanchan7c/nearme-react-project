@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+.food {
+  padding: 0.5em 0;
+  min-width: 30%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 8px #d0d2d3;
+  border: 1px solid #d0d2d3;
+  border-radius: 7px;
+  position: relative;
+  margin: 1em 0.5em;
+  color: white;
+  cursor: pointer;
+}
+.food p {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 0.5em;
+  background-color: rgba(0, 0, 0, 0.525);
+}
+.food p .MuiSvgIcon-root {
+  margin-right: 0.3em;
+}
+.food p .MuiSvgIcon-root path {
+  color: white;
+}
+.food p span {
+  color: white;
+}
+.food h1 {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  padding: 4em;
+  color: white;
+  visibility: none;
+  z-index: -2;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.525);
+  transition: all 0.3s ease;
+}
+.food:hover h1 {
+  visibility: visible;
+  z-index: 0;
+}
+
+/*# sourceMappingURL=food.css.map */
