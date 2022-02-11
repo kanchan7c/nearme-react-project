@@ -8,6 +8,7 @@
   box-shadow: 2px 4px 8px #d0d2d3;
   border: 1px solid #d0d2d3;
   border-radius: 7px;
+  overflow: hidden;
   position: relative;
   margin: 1em 0.5em;
   color: white;
@@ -20,6 +21,7 @@
   top: 0;
   right: 0;
   padding-right: 0.5em;
+  font-size: 1.2rem;
   background-color: rgba(0, 0, 0, 0.525);
 }
 .food p .MuiSvgIcon-root {
@@ -29,14 +31,15 @@
   color: white;
 }
 .food p span {
-  color: white;
+  color: #ffbe00;
+  font-weight: 600;
 }
 .food h1 {
   position: absolute;
   bottom: 0;
   height: 100%;
   padding: 4em;
-  color: white;
+  color: #ffbe00;
   visibility: none;
   z-index: -2;
   width: 100%;

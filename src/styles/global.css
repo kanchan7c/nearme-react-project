@@ -14,9 +14,7 @@
   right: 0;
   box-shadow: 2px 4px 8px #d0d2d3;
   background-color: #ffffff;
-
-z-index:100;
-
+  z-index: 100;
 }
 .navbar .logo {
   height: 8vh;
@@ -95,24 +93,27 @@ z-index:100;
   }
 }
 .cuisines {
-  padding-top: 6em;
+  padding-top: 7em;
   width: 90vw;
   margin: auto;
 }
 .cuisines h5 {
   margin-bottom: 2em;
-  vertical-align: middle;
 }
 .cuisines h5 a {
   color: #070733;
   font-size: 1.2rem;
   font-weight: 400;
 }
+.cuisines h5 a:visited {
+  color: rgba(92, 5, 92, 0.767);
+}
 .cuisines h4 {
   text-align: center;
   padding-bottom: 1em;
   font-size: 2rem;
   color: inherit;
+  text-shadow: 0px 4px 4px #d0d2d3;
 }
 .cuisines .cuisine_container {
   width: 100%;
@@ -136,6 +137,7 @@ z-index:100;
   box-shadow: 2px 4px 8px #d0d2d3;
   border: 1px solid #d0d2d3;
   border-radius: 7px;
+  overflow: hidden;
   position: relative;
   margin: 1em 0.5em;
   color: white;
@@ -148,6 +150,7 @@ z-index:100;
   top: 0;
   right: 0;
   padding-right: 0.5em;
+  font-size: 1.2rem;
   background-color: rgba(0, 0, 0, 0.525);
 }
 .food p .MuiSvgIcon-root {
@@ -157,14 +160,15 @@ z-index:100;
   color: white;
 }
 .food p span {
-  color: white;
+  color: #ffbe00;
+  font-weight: 600;
 }
 .food h1 {
   position: absolute;
   bottom: 0;
   height: 100%;
   padding: 4em;
-  color: white;
+  color: #ffbe00;
   visibility: none;
   z-index: -2;
   width: 100%;

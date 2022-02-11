@@ -1,18 +1,21 @@
 @import './variables.scss';
 
 .cuisines {
-  padding-top: 6em;
+  padding-top: 7em;
   width: 90vw;
   margin: auto;
 
   & h5 {
     margin-bottom: 2em;
-    vertical-align: middle;
 
     & a {
       color: $breamcrumb-color;
       font-size: 1.2rem;
       font-weight: 400;
+    }
+
+    & a:visited {
+      color: rgba(92, 5, 92, 0.767);
     }
   }
 
@@ -21,6 +24,7 @@
     padding-bottom: 1em;
     font-size: 2rem;
     color: inherit;
+    text-shadow: $text-shadow;
   }
 
   & .cuisine_container {

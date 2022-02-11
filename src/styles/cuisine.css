@@ -1,23 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 .cuisines {
-  padding-top: 6em;
+  padding-top: 7em;
   width: 90vw;
   margin: auto;
 }
 .cuisines h5 {
   margin-bottom: 2em;
-  vertical-align: middle;
 }
 .cuisines h5 a {
   color: #070733;
   font-size: 1.2rem;
   font-weight: 400;
 }
+.cuisines h5 a:visited {
+  color: rgba(92, 5, 92, 0.767);
+}
 .cuisines h4 {
   text-align: center;
   padding-bottom: 1em;
   font-size: 2rem;
   color: inherit;
+  text-shadow: 0px 4px 4px #d0d2d3;
 }
 .cuisines .cuisine_container {
   width: 100%;
